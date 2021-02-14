@@ -3,7 +3,7 @@ import Category from './Category';
 
 const Project = ({items}) => {
   return (
-  <div class="row">
+  <div class="row d-flex justify-content-center">
       {items.map((projectItem)=>{
         const {id, img, title, desc, category, demo, code, tools} = projectItem;
         return (

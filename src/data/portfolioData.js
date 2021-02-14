@@ -23,7 +23,7 @@ const portfolioData = [
         id: 3,
         img: './assets/permika.png',
         title: 'permika website clone',
-        desc: `Website for the Indonesian Student Sssociation in Edmonton. The original website is built with wix and we want to avoid the premium fee.`,
+        desc: `Website for the Indonesian Student Association in Edmonton. The original website is built with wix and we want to avoid the premium fee.`,
         category: 'Forgery',
         demo: ``,
         code: `https://github.com/sen3cuh/permika-clone`,

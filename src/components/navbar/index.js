@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link"  href="https://drive.google.com/file/d/18XYlmKWMx-WCN0boCMqgby_QrxJc4kFb/view?usp=sharing">Resume</a>
+              <a className="nav-link"  href="https://drive.google.com/file/d/1ThtV_mS0x_8NetnUENFZeFW9g6Xnp0eY/view?usp=sharing">Resume</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/portfolio">Portfolio</a>

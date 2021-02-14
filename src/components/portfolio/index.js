@@ -18,10 +18,11 @@ const Portfolio = () => {
   }
 
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className="container-fluid">
+      <h1 className="d-flex justify-content-center my-5">Portfolio</h1>
       <Category categories={categories} filterItems={filterItems}/>
       <Project items={projectItems}/>
+      {/* </div> */}
     </div>
   );
 };

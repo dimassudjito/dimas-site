@@ -1,0 +1,21 @@
+.card-base{
+    visibility: visible;
+}
+
+.card-base:hover{
+    visibility: hidden;
+}
+
+.card-overlay{
+    background-color:black;
+    color: white;
+    visibility: hidden
+}
+
+.card-overlay:hover{
+    background-color:black;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    filter: grayscale();
+}
