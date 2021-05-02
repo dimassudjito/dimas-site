@@ -51,7 +51,7 @@ const Experience = ({items}) => {
                 </div>
                 )}
                 {flipped && (
-                <div className="card-body bg-dark text-white">
+                <div className="card-body bg-dark text-white" style={{whiteSpace: "pre-line",}}>
                     <h4 className="card-title">{title} <small>({date})</small></h4>
                     <p>{pos}</p>
                     <p>{desc}</p>
