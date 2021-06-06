@@ -3,7 +3,7 @@ const portfolioData = [
     id: 6,
     img: './assets/quora-clone.png',
     title: 'Quora clone',
-    desc: `A MEVN stack clone of quora.com with user authentication and GraphQL API`,
+    desc: `A clone of quora.com built with MEVN stack. Includes user authentication and GraphQL API`,
     category: 'Forgery',
     demo: `https://rankify.netlify.com`,
     code: `https://github.com/dimassudjito/quora-clone`,
@@ -35,7 +35,7 @@ const portfolioData = [
     title: 'bang!',
     desc: `It's the classic duel game where 2 players compete to shoot the fastest. To fire the gun, the player will make a gun gesture and point it at the camera`,
     category: 'Original',
-    demo: `https://editor.p5js.org/dimassudjito/sketches/qZ3gfYDev`,
+    demo: `https://bang-game.netlify.app/`,
     code: `https://github.com/dimassudjito/bang`,
     tools: 'js, ml5, p5, teachable machine'
   },
