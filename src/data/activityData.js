@@ -59,6 +59,16 @@ const activityData = [
     link: ``
   },
   {
+    id: 7,
+    img: './assets/physics.jpg',
+    title: 'University of Indonesia, Department of Physics',
+    pos: 'PHP Intern',
+    category: 'past',
+    date: `Dec 2017`,
+    desc: `Prototyped a CRUD website that records students’ lab scores with PHP, HTML, and CSS in 2 weeks. The supervisor was satisfied with the result and asked me to build a treasury webpage for his small business using the same web structure.`,
+    link: ``
+  },
+  {
     id: 5,
     img: './assets/local.jpg',
     title: 'yanglokal.com',
