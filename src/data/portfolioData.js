@@ -1,5 +1,15 @@
 const portfolioData = [
   {
+    id: 9,
+    img: './assets/no-image.png',
+    title: 'Rock Paper Spock',
+    desc: `A multiplayer online game of Rock Paper Scissor Lizard Spock. GraphQL Subscription is used for real time communication.`,
+    category: 'Original',
+    demo: `https://github.com/dimassudjito/rpspock`,
+    code: `https://github.com/dimassudjito/rpspock`,
+    tools: 'Apollo, MongoDB, Mongoose, Vue.js, Vuetify, GSAP'
+  },
+  {
     id: 6,
     img: './assets/quora-clone.png',
     title: 'Quora clone',
@@ -8,6 +18,16 @@ const portfolioData = [
     demo: `https://rankify.netlify.com`,
     code: `https://github.com/dimassudjito/quora-clone`,
     tools: 'Apollo, MongoDB, Mongoose, Vue.js, Vuetify'
+  },
+  {
+    id: 8,
+    img: './assets/d3ja-vue.png',
+    title: 'd3ja-vue',
+    desc: `A vue component library for data visualization with d3.js`,
+    category: 'Original',
+    demo: `https://www.npmjs.com/package/d3ja-vue`,
+    code: `https://github.com/dimassudjito/d3ja-vue`,
+    tools: 'Vue.js, D3.js'
   },
   {
     id: 4,
@@ -45,7 +65,7 @@ const portfolioData = [
     title: 'congklak',
     desc: `It simulates a game of congklak for two players. It contains all the rules and it will move the seed automatically, so the players can focus on the game.`,
     category: 'Original',
-    demo: ``,
+    demo: `https://devpost.com/software/congklak`,
     code: `https://github.com/dimassudjito/congklak`,
     tools: 'python, pygame'
   },
@@ -58,6 +78,16 @@ const portfolioData = [
     demo: `https://permika.netlify.com`,
     code: `https://github.com/dimassudjito/permika-clone`,
     tools: 'react, bootstrap'
+  },
+  {
+    id: 7,
+    img: './assets/sagaline.png',
+    title: 'Sagaline 1.0',
+    desc: `Timeline-based history lesson with interactive quiz`,
+    category: 'Original',
+    demo: `https://sagaline.bubbleapps.io/`,
+    code: `https://devpost.com/software/sagaline`,
+    tools: 'bubble.io'
   }
 ]
 export default portfolioData
