@@ -1,13 +1,14 @@
 const portfolioData = [
   {
     id: 9,
-    img: './assets/no-image.png',
-    title: 'Rock Paper Spock',
-    desc: `A multiplayer online game of Rock Paper Scissor Lizard Spock. GraphQL Subscription is used for real time communication.`,
+    img: './assets/xray.png',
+    title: 'Fill-in-the-blank Medical Report',
+    desc: `Automatic filling of medical report from chest X-ray scans using CNN-LSTM
+    architecture.`,
     category: 'Original',
-    demo: `https://github.com/dimassudjito/rpspock`,
-    code: `https://github.com/dimassudjito/rpspock`,
-    tools: 'Apollo, MongoDB, Mongoose, Vue.js, Vuetify, GSAP'
+    demo: `https://openi.nlm.nih.gov/faq`,
+    code: `https://github.com/dimassudjito/med-caption`,
+    tools: 'PyTorch, Pandas'
   },
   {
     id: 6,
@@ -18,26 +19,6 @@ const portfolioData = [
     demo: `https://rankify.netlify.com`,
     code: `https://github.com/dimassudjito/quora-clone`,
     tools: 'Apollo, MongoDB, Mongoose, Vue.js, Vuetify'
-  },
-  {
-    id: 8,
-    img: './assets/d3ja-vue.png',
-    title: 'd3ja-vue',
-    desc: `A vue component library for data visualization with d3.js`,
-    category: 'Original',
-    demo: `https://www.npmjs.com/package/d3ja-vue`,
-    code: `https://github.com/dimassudjito/d3ja-vue`,
-    tools: 'Vue.js, D3.js'
-  },
-  {
-    id: 4,
-    img: './assets/rankify.png',
-    title: 'Rankify',
-    desc: `A suite of decision-making tools built with react and bootstrap. Currently hosts two tools: sports brackets and QuickSelect.`,
-    category: 'Original',
-    demo: `https://rankify.netlify.com`,
-    code: `https://github.com/dimassudjito/rankify`,
-    tools: 'react, bootstrap'
   },
   {
     id: 5,
@@ -58,6 +39,36 @@ const portfolioData = [
     demo: `https://bang-game.netlify.app/`,
     code: `https://github.com/dimassudjito/bang`,
     tools: 'js, ml5, p5, teachable machine'
+  },
+  {
+    id: 8,
+    img: './assets/d3ja-vue.png',
+    title: 'd3ja-vue',
+    desc: `A vue component library for data visualization with d3.js`,
+    category: 'Original',
+    demo: `https://www.npmjs.com/package/d3ja-vue`,
+    code: `https://github.com/dimassudjito/d3ja-vue`,
+    tools: 'Vue.js, D3.js'
+  },
+  {
+    id: 10,
+    img: './assets/titanic.jpg',
+    title: 'Titanic Predictor',
+    desc: `See whether you will survive the titanic using this classifier API`,
+    category: 'Original',
+    demo: `https://www.kaggle.com/c/titanic`,
+    code: `https://github.com/dimassudjito/titanic-flask`,
+    tools: 'Scikit-learn, Flask'
+  },
+  {
+    id: 4,
+    img: './assets/rankify.png',
+    title: 'Rankify',
+    desc: `A suite of decision-making tools built with react and bootstrap. Currently hosts two tools: sports brackets and QuickSelect.`,
+    category: 'Original',
+    demo: `https://rankify.netlify.com`,
+    code: `https://github.com/dimassudjito/rankify`,
+    tools: 'react, bootstrap'
   },
   {
     id: 2,

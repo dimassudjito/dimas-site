@@ -25,7 +25,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://docs.google.com/document/d/1dNXVbrRZCcZtAnUkqbIer1WGC72fzC0zUYZ0O1Vhbz0/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1OzIE1vc4hVfwzwVrcW4hxOkOqxsna8IJ/view?usp=sharing"
                 target="_blank"
               >
                 Resume

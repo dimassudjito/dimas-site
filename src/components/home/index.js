@@ -8,8 +8,11 @@ const Home = () => {
           <h1>Hello, I'm Dimas</h1>
           <p>
             I'm a software engineering student at the University of Alberta and
-            a current software engineer intern at Bioconversion Databank
-            Foundation.{' '}
+            a former software engineer intern at{' '}
+            <a className="text-dark" href="https://www.bio-conversion.org/">
+              {' '}
+              Bioconversion Databank Foundation.{' '}
+            </a>{' '}
           </p>
           <p>
             I love arguing about real-world problems and (sometimes) building
