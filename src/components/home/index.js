@@ -25,7 +25,11 @@ const Home = () => {
         </div>
         <div className="col-lg">
           <div className="row justify-content-center">
-            <img src="./assets/profile.jpg" className="rounded-circle w-75" />
+            <img
+              src="./assets/profile.jpg"
+              className="rounded-circle w-75"
+              alt=""
+            />
           </div>
         </div>
       </div>
