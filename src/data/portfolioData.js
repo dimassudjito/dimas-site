@@ -21,7 +21,7 @@ const portfolioData = [
     architecture. Worked under Dr. Li Cheng and Hoang Nguyen.`,
     category: 'Original',
     demo: ``,
-    code: `https://github.com/dimassudjito/med-caption`,
+    code: `https://github.com/dimassudjito/med_caption`,
     tools: 'PyTorch, Pandas'
   },
   {
@@ -31,7 +31,7 @@ const portfolioData = [
     desc: `A full clone of quora.com, a questions and answers application, based on
     GraphQL. Equipped with a classifier API to detect insincere questions.`,
     category: 'Forgery',
-    demo: `https://rankify.netlify.com`,
+    demo: `https://quora-clone-client.netlify.com`,
     code: `https://github.com/dimassudjito/quora-clone`,
     tools:
       'Scikit-learn, Flask, MongoDB, Mongoose, Apollo Server, Vue.js, Vuetify'
