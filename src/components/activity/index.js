@@ -14,10 +14,10 @@ const Activity = () => {
 
   return (
     <div className="container">
-      <h1 className="d-flex justify-content-center">Recent Activities</h1>
+      <h1 className="d-flex justify-content-center my-1">Recent Activities</h1>
       <Experience items={recentExperience} />
       <div>
-        <h1 className="d-flex justify-content-center">Past Activities</h1>
+        <h1 className="d-flex justify-content-center my-1">Past Activities</h1>
         <Experience items={pastExperience} />
       </div>
     </div>

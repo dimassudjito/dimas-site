@@ -1,5 +1,19 @@
 const portfolioData = [
   {
+    id: 10,
+    img: './assets/gacha4good.png',
+    title: 'Gacha4Good',
+    desc: `A boxing game based on the arcade game Dinosaur King. Players will get
+    coins when they win a match. They will then use the coin to buy Boxer Card
+    Pack and collect Boxer Card. Player can also buy coins with real money through PayPal. All profits will be
+    donated to select charities.`,
+    category: 'Original',
+    demo: ``,
+    code: `https://github.com/dimassudjito/gacha4good`,
+    tools:
+      'React, Material UI, Apollo Server, Apollo Client, PayPal API, MongoDB Atlas, TypeScript'
+  },
+  {
     id: 9,
     img: './assets/xray.png',
     title: 'Fill-in-the-blank Medical Report',
@@ -12,7 +26,7 @@ const portfolioData = [
   },
   {
     id: 6,
-    img: './assets/quora.png',
+    img: './assets/quora-clone.png',
     title: 'Quora clone',
     desc: `A full clone of quora.com, a questions and answers application, based on
     GraphQL. Equipped with a classifier API to detect insincere questions.`,
@@ -21,6 +35,26 @@ const portfolioData = [
     code: `https://github.com/dimassudjito/quora-clone`,
     tools:
       'Scikit-learn, Flask, MongoDB, Mongoose, Apollo Server, Vue.js, Vuetify'
+  },
+  {
+    id: 12,
+    img: './assets/logistic.jpeg',
+    title: 'Logistic',
+    desc: `Web app to keep track of inventory and warehouses (Shopify Backend Summer '22)`,
+    category: 'Original',
+    demo: ``,
+    code: `https://github.com/dimassudjito/logistic`,
+    tools: 'TypeScript, Apollo Server, Apollo Client, React'
+  },
+  {
+    id: 11,
+    img: './assets/spacestagram.png',
+    title: 'Spacestagram',
+    desc: `A tumblr-style UI for nasa astronomy photo of the day API (Shopify Frontend Summer '22)`,
+    category: 'Forgery',
+    demo: `https://space-by-sudjito.netlify.com`,
+    code: `https://github.com/dimassudjito/spacestagram`,
+    tools: 'React, Material UI'
   },
   {
     id: 5,
