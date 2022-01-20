@@ -36,14 +36,16 @@ const Project = ({ items }) => {
                       code
                     </button>
                   </a>
-                  <a href={demo}>
-                    <button
-                      type="button"
-                      class="btn btn-outline-dark btn-sm m-1"
-                    >
-                      demo
-                    </button>
-                  </a>{' '}
+                  {demo ? (
+                    <a href={demo}>
+                      <button
+                        type="button"
+                        class="btn btn-outline-dark btn-sm m-1"
+                      >
+                        demo
+                      </button>
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </div>

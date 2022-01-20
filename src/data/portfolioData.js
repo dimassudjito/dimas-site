@@ -6,13 +6,13 @@ const portfolioData = [
     desc: `Automatic filling of medical report from chest X-ray scans using CNN-LSTM
     architecture.`,
     category: 'Original',
-    demo: `https://openi.nlm.nih.gov/faq`,
+    demo: ``,
     code: `https://github.com/dimassudjito/med-caption`,
     tools: 'PyTorch, Pandas'
   },
   {
     id: 6,
-    img: './assets/quora-clone.png',
+    img: './assets/quora.png',
     title: 'Quora clone',
     desc: `A clone of quora.com built with MEVN stack. Includes user authentication and GraphQL API`,
     category: 'Forgery',
@@ -56,7 +56,7 @@ const portfolioData = [
     title: 'Titanic Predictor',
     desc: `See whether you will survive the titanic using this classifier API`,
     category: 'Original',
-    demo: `https://www.kaggle.com/c/titanic`,
+    demo: ``,
     code: `https://github.com/dimassudjito/titanic-flask`,
     tools: 'Scikit-learn, Flask'
   },
