@@ -5,12 +5,18 @@ const activityData = [
     title: 'Bioconversion Databank Foundation',
     pos: 'Software Engineer Intern',
     category: 'recent',
-    date: `May 2021 - Present`,
-    desc: `- Built a complete authentication system with email verification using Vue.js and Amazon Cognito under the Git Flow system.
-    - Developed an interface for phage receptor database using Vuetify that includes global search, column search and a virtual keyboard for Greek characters.
-    - Utilize Figma to develop the mock-up of the web application. By using Figma components and Vuetify plugins, prototyping time is cut by 50%.
-    
-        `,
+    date: `May 2021 - Aug 2021`,
+    desc: `- Developed an interface for phage receptor database using Vuetify that
+    includes features like searching, pagination, CSV export, virtual greek
+    keyboards, and interactive SVG diagrams.
+    - Built a visualization tool for biological pathway and organism metadata using
+    Plotly, Vuex, and D3.js.
+    - Built a complete authentication system using Amazon Cognito including single
+    sign-on to Discourse and Admin website.
+    - Maintained the phage receptor database and API using AWS DynamoDB and
+    AppSync.
+    - Setup and developed frontend testing using Jest and Vue test utils.
+    - Utilized Figma components and Vuetify plugin to cut prototyping time by 50%.`,
     link: ``
   },
   {
@@ -20,10 +26,10 @@ const activityData = [
     pos: 'Frontend Developer Apprentice',
     category: 'recent',
     date: `Sept - Dec 2020`,
-    desc: `- Developed an appointment snippet in the doctor page that reduces users’ booking time by 30%.
-    - Fixed bugs and developed new features in the booking form.
-    - Leveraged knowledge in React, React router, CSS, Postman, PuTTY, and BitBucket.
-    `,
+    desc: `- Developed an appointment snippet in the doctor page with React that reduces
+    users’ booking time by 30%.
+    - Fixed bugs and developed new features in the booking form using React
+    router and Postman.`,
     link: ``
   },
   {
@@ -31,7 +37,7 @@ const activityData = [
     img: './assets/battery.jpg',
     title: 'Albertaloop',
     pos: 'Electrical Hardware Team',
-    category: 'recent',
+    category: 'past',
     date: `Sept - Dec 2019`,
     desc: `Wrote a preliminary research report on the cooling systems of the lithium-ion battery. This report explores different methods of cooling such as dielectric oil, water-based coolant, complete submersion, and air convection.`,
     link: ``
@@ -55,17 +61,20 @@ const activityData = [
     pos: 'Co-founder',
     category: 'past',
     date: `Jun - Oct 2018`,
-    desc: `Careerrocket.io helps high school students find their future career by connecting them to industry professional`,
+    desc: `Careerrocket.io is a startup that helps high school students find their future career by connecting them to industry professional`,
     link: ``
   },
   {
     id: 7,
     img: './assets/physics.jpg',
     title: 'University of Indonesia, Department of Physics',
-    pos: 'PHP Intern',
+    pos: 'PHP Developer Intern',
     category: 'past',
     date: `Dec 2017`,
-    desc: `Prototyped a CRUD website that records students’ lab scores with PHP, HTML, and CSS in 2 weeks. The supervisor was satisfied with the result and asked me to build a treasury webpage for his small business using the same web structure.`,
+    desc: `- Prototyped a CRUD website that records students’ lab scores with PHP,
+    MySQL, phpMyAdmin, HTML, and CSS in 2 weeks.
+    - The supervisor liked the result and asked me to build a treasury page for his
+    small business using the same web structure.`,
     link: ``
   },
   {
