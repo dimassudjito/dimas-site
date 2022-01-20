@@ -4,7 +4,7 @@ const portfolioData = [
     img: './assets/xray.png',
     title: 'Fill-in-the-blank Medical Report',
     desc: `Automatic filling of medical report from chest X-ray scans using CNN-LSTM
-    architecture.`,
+    architecture. Worked under Dr. Li Cheng and Hoang Nguyen.`,
     category: 'Original',
     demo: ``,
     code: `https://github.com/dimassudjito/med-caption`,
@@ -14,11 +14,13 @@ const portfolioData = [
     id: 6,
     img: './assets/quora.png',
     title: 'Quora clone',
-    desc: `A clone of quora.com built with MEVN stack. Includes user authentication and GraphQL API`,
+    desc: `A full clone of quora.com, a questions and answers application, based on
+    GraphQL. Equipped with a classifier API to detect insincere questions.`,
     category: 'Forgery',
     demo: `https://rankify.netlify.com`,
     code: `https://github.com/dimassudjito/quora-clone`,
-    tools: 'Apollo, MongoDB, Mongoose, Vue.js, Vuetify'
+    tools:
+      'Scikit-learn, Flask, MongoDB, Mongoose, Apollo Server, Vue.js, Vuetify'
   },
   {
     id: 5,
@@ -34,7 +36,8 @@ const portfolioData = [
     id: 1,
     img: './assets/bang.jpg',
     title: 'bang!',
-    desc: `It's the classic duel game where 2 players compete to shoot the fastest. To fire the gun, the player will make a gun gesture and point it at the camera`,
+    desc: `A Kinect-like duel game where the players make the gun motion to pull the
+    trigger. The player who shoots faster wins.`,
     category: 'Original',
     demo: `https://bang-game.netlify.app/`,
     code: `https://github.com/dimassudjito/bang`,
