@@ -12,6 +12,11 @@ function App() {
       <div className="container-fluid">
         <Navbar/>
         <Switch>
+          <Route path='*' component={() => {
+              window.location.href = 'https://github.com/dimassudjito';
+              return null;
+            }}
+          />
           <Route exact path="/"><Home/></Route>
           <Route path="/portfolio"><Portfolio/></Route>
           <Route path="/activity"><Activity/></Route>
